@@ -17168,8 +17168,8 @@ NS Package M08A</description>
 <part name="GND42" library="SparkFun" deviceset="GND" device=""/>
 <part name="C9" library="rcl" deviceset="C-US" device="C0603" value="1u"/>
 <part name="GND50" library="SparkFun" deviceset="GND" device=""/>
-<part name="R9" library="rcl" deviceset="R-US_" device="R0402" value="100"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="R0402" value="100"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
@@ -17188,8 +17188,8 @@ NS Package M08A</description>
 <part name="GND54" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND55" library="SparkFun" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="C8" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="A" value="10u"/>
 <part name="GND72" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND94" library="SparkFun" deviceset="GND" device=""/>
@@ -17207,10 +17207,10 @@ NS Package M08A</description>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="C32" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
-<part name="C34" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
-<part name="C53" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
-<part name="C51" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
-<part name="C52" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C34" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C53" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C51" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C52" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND66" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND68" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND69" library="SparkFun" deviceset="GND" device=""/>
@@ -17219,7 +17219,7 @@ NS Package M08A</description>
 <part name="GND73" library="SparkFun" deviceset="GND" device=""/>
 <part name="R2" library="og-pots" deviceset="POT_US" device="VERTICAL_PS" value="10kB"/>
 <part name="GND25" library="SparkFun" deviceset="GND" device=""/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C12" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="SW1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
@@ -17237,24 +17237,24 @@ NS Package M08A</description>
 <part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="L4" library="wuerth-elektronik" deviceset="WE-CBF" device="_0603"/>
 <part name="FRAME5" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R38" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R38" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
-<part name="R34" library="rcl" deviceset="R-US_" device="R0402" value="33k"/>
-<part name="R29" library="rcl" deviceset="R-US_" device="R0402" value="140k"/>
-<part name="C48" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
-<part name="R39" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R34" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
+<part name="R29" library="rcl" deviceset="R-US_" device="R0603" value="140k"/>
+<part name="C48" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
+<part name="R39" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
-<part name="R35" library="rcl" deviceset="R-US_" device="R0402" value="20k"/>
-<part name="R36" library="rcl" deviceset="R-US_" device="R0402" value="120k"/>
-<part name="C49" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
-<part name="R15" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R35" library="rcl" deviceset="R-US_" device="R0603" value="20k"/>
+<part name="R36" library="rcl" deviceset="R-US_" device="R0603" value="120k"/>
+<part name="C49" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
+<part name="R15" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND32" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-US_" device="R0402" value="20k"/>
-<part name="R23" library="rcl" deviceset="R-US_" device="R0402" value="120k"/>
-<part name="C40" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
+<part name="R19" library="rcl" deviceset="R-US_" device="R0603" value="20k"/>
+<part name="R23" library="rcl" deviceset="R-US_" device="R0603" value="120k"/>
+<part name="C40" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
 <part name="R40" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND34" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun" deviceset="GND" device=""/>
@@ -17267,12 +17267,12 @@ NS Package M08A</description>
 <part name="R32" library="rcl" deviceset="R-US_" device="R0603" value="20k"/>
 <part name="R33" library="rcl" deviceset="R-US_" device="R0603" value="120k"/>
 <part name="C47" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
-<part name="R13" library="rcl" deviceset="R-US_" device="R0402" value="100k"/>
+<part name="R13" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND38" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun" deviceset="GND" device=""/>
-<part name="R20" library="rcl" deviceset="R-US_" device="R0402" value="33k"/>
-<part name="R27" library="rcl" deviceset="R-US_" device="R0402" value="200k"/>
-<part name="C41" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
+<part name="R20" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
+<part name="R27" library="rcl" deviceset="R-US_" device="R0603" value="200k"/>
+<part name="C41" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
 <part name="J2" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="J8" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="J4" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
@@ -17281,23 +17281,23 @@ NS Package M08A</description>
 <part name="J5" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="GND84" library="SparkFun" deviceset="GND" device=""/>
 <part name="C36" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
-<part name="C44" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C44" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND51" library="SparkFun" deviceset="GND" device=""/>
 <part name="J7" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
-<part name="R50" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R50" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="J6" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="IC6" library="og-linear" deviceset="TL074" device="PW" value="MCP6004"/>
-<part name="R49" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="R48" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="R45" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R49" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R48" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R45" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="IC7" library="og-linear" deviceset="TL074" device="PW" value="MCP6004"/>
 <part name="R14" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
 <part name="R26" library="rcl" deviceset="R-US_" device="R0603" value="110k"/>
 <part name="C39" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
-<part name="R51" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R51" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R24" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="56k"/>
 <part name="R25" library="rcl" deviceset="R-US_" device="R0603" value="200k"/>
@@ -17331,24 +17331,24 @@ NS Package M08A</description>
 <part name="GND47" library="SparkFun" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND48" library="SparkFun" deviceset="GND" device=""/>
-<part name="C27" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C27" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="C30" library="rcl" deviceset="CPOL-US" device="A" value="10u"/>
 <part name="GND49" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND52" library="SparkFun" deviceset="GND" device=""/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND53" library="SparkFun" deviceset="GND" device=""/>
 <part name="C29" library="rcl" deviceset="C-US" device="C0805" value="2.2u"/>
 <part name="C31" library="rcl" deviceset="C-US" device="C0805" value="2.2u"/>
 <part name="GND57" library="SparkFun" deviceset="GND" device=""/>
-<part name="C18" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C18" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND58" library="SparkFun" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="R28" library="rcl" deviceset="R-US_" device="R0402" value="33k"/>
-<part name="C43" library="rcl" deviceset="C-US" device="C0402" value="100p"/>
-<part name="R21" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R28" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
+<part name="C43" library="rcl" deviceset="C-US" device="C0603" value="100p"/>
+<part name="R21" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND59" library="SparkFun" deviceset="GND" device=""/>
-<part name="R22" library="rcl" deviceset="R-US_" device="R0402" value="33k"/>
-<part name="C42" library="rcl" deviceset="C-US" device="C0402" value="100p"/>
+<part name="R22" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
+<part name="C42" library="rcl" deviceset="C-US" device="C0603" value="100p"/>
 <part name="R46" library="rcl" deviceset="R-US_" device="R0603" value="1.0k"/>
 <part name="R47" library="rcl" deviceset="R-US_" device="R0603" value="1.0k"/>
 <part name="GND60" library="SparkFun" deviceset="GND" device=""/>
@@ -17357,24 +17357,24 @@ NS Package M08A</description>
 <part name="IC8" library="og-linear" deviceset="TL072" device="PW"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="VEE" device=""/>
-<part name="C37" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
-<part name="C45" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C37" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
+<part name="C45" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND63" library="SparkFun" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="CPOL-US" device="A" value="10u"/>
 <part name="GND93" library="SparkFun" deviceset="GND" device=""/>
-<part name="C28" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C28" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="GND65" library="SparkFun" deviceset="GND" device=""/>
-<part name="C33" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
-<part name="C35" library="rcl" deviceset="C-US" device="C0402" value="1.0n"/>
+<part name="C33" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
+<part name="C35" library="rcl" deviceset="C-US" device="C0603" value="1.0n"/>
 <part name="GND81" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND82" library="SparkFun" deviceset="GND" device=""/>
-<part name="R11" library="rcl" deviceset="R-US_" device="R0402" value="2.2k"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="R0402" value="2.2k"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="IC3" library="og-vreg" deviceset="LD2981" device="ABU" value="LD2981ABU33"/>
 <part name="FRAME6" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="IC9" library="texas" deviceset="LM4041" device="DBZ" technology="B12" value="LM4040B10"/>
-<part name="R37" library="rcl" deviceset="R-US_" device="R0402" value="2.2k"/>
-<part name="C50" library="rcl" deviceset="C-US" device="C0402" value="1u"/>
+<part name="R37" library="rcl" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="C50" library="rcl" deviceset="C-US" device="C0603" value="1u"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="CPOL-US" device="B" value="22u"/>
 <part name="C5" library="rcl" deviceset="CPOL-US" device="B" value="22u"/>
@@ -17389,7 +17389,7 @@ NS Package M08A</description>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD123" value="1N5819HW"/>
 <part name="L2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0603"/>
 <part name="L3" library="wuerth-elektronik" deviceset="WE-CBF" device="_0603"/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0402" value="100n"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603" value="100n"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
