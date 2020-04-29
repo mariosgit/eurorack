@@ -1,4 +1,14 @@
-Mutable Instruments' Eurorack Modules.
+# Changes by mariosgit..
+
+in branch mb/402to603
+* Marbles 402->603
+* Paits 402->603
+
+in branch master
+* Stages, fixed LED resistor 15k -> 150ohm
+* Grids changed plug footprint
+
+# Mutable Instruments' Eurorack Modules.
 
 * [Blinds](http://mutable-instruments.net/modules/blinds): Quad VC-polarizer.
 * [Braids](http://mutable-instruments.net/modules/braids): Macro-oscillator.
