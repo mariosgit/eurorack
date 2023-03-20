@@ -58,6 +58,12 @@ struct PersistentData {
   enum { tag = 0x494C4143 };
 };
 
+enum DejaVuState {
+  DEJA_VU_OFF,
+  DEJA_VU_ON,
+  DEJA_VU_LOCKED
+};
+
 struct State {
   uint8_t t_deja_vu;
   uint8_t t_model;
@@ -76,8 +82,9 @@ struct State {
   uint8_t y_range;
   
   uint8_t color_blind;
+  uint8_t explicit_reset;
   
-  uint8_t padding[8];
+  uint8_t padding[7];
 
   enum { tag = 0x54415453 };
 };
@@ -133,6 +140,10 @@ class Settings {
   
   inline int dirty_scale_index() const {
     return dirty_scale_index_;
+  }
+  
+  inline bool explicit_reset() const {
+    return state_.explicit_reset;
   }
   
  private:

@@ -36,13 +36,13 @@
 #include "marbles/drivers/adc.h"
 #include "marbles/drivers/leds.h"
 #include "marbles/drivers/switches.h"
+#include "marbles/settings.h"
 
 namespace marbles {
 
 class ClockInputs;
 class CvReader;
 class ScaleRecorder;
-class Settings;
 
 enum UiMode {
   UI_MODE_NORMAL,
@@ -52,6 +52,7 @@ enum UiMode {
   UI_MODE_CALIBRATION_2,
   UI_MODE_CALIBRATION_3,
   UI_MODE_CALIBRATION_4,
+  UI_MODE_DISPLAY_RESET_MODE,
   UI_MODE_PANIC,
 };
 
@@ -111,6 +112,7 @@ class Ui {
   void UpdateHiddenParameters();
   void TerminateScaleRecording();
   static LedColor MakeColor(uint8_t value, bool color_blind);
+  static LedColor DejaVuColor(DejaVuState state, bool lock);
   
   stmlib::EventQueue<16> queue_;
   

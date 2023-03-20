@@ -96,6 +96,27 @@ class XYGenerator {
       const stmlib::GateFlags* external_clock,
       const Ramps& ramps,
       float* output,
+      size_t size) {
+    bool reset = false;
+    Process(
+        clock_source,
+        x_settings,
+        y_settings,
+        &reset,
+        external_clock,
+        ramps,
+        output,
+        size);
+  }
+  
+  void Process(
+      ClockSource clock_source,
+      const GroupSettings& x_settings,
+      const GroupSettings& y_settings,
+      bool* reset,
+      const stmlib::GateFlags* external_clock,
+      const Ramps& ramps,
+      float* output,
       size_t size);
   
   void LoadScale(int channel, int scale_index, const Scale& scale) {
@@ -114,6 +135,8 @@ class XYGenerator {
   RampDivider ramp_divider_;
   
   int external_clock_stabilization_counter_;
+  
+  bool use_shifted_sequences_[kNumChannels];
   
   DISALLOW_COPY_AND_ASSIGN(XYGenerator);
 };

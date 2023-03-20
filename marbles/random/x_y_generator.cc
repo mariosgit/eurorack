@@ -45,6 +45,11 @@ void XYGenerator::Init(RandomStream* random_stream, float sr) {
   ramp_extractor_.Init(8000.0f / sr);
   ramp_divider_.Init();
   external_clock_stabilization_counter_ = 16;
+  
+  fill(
+      &use_shifted_sequences_[0],
+      &use_shifted_sequences_[kNumChannels],
+      false);
 }
 
 const uint32_t hashes[kNumXChannels] = {
@@ -55,6 +60,7 @@ void XYGenerator::Process(
     ClockSource clock_source,
     const GroupSettings& x_settings,
     const GroupSettings& y_settings,
+    bool* reset,
     const GateFlags* external_clock,
     const Ramps& ramps,
     float* output,
@@ -78,7 +84,8 @@ void XYGenerator::Process(
     case CLOCK_SOURCE_EXTERNAL:
       {
         Ratio r = { 1, 1 };
-        ramp_extractor_.Process(r, false, external_clock, ramps.slave[0], size);
+        ramp_extractor_.Process(
+            r, false, reset, external_clock, ramps.slave[0], size);
         if (external_clock_stabilization_counter_) {
           fill(&ramps.slave[0][0], &ramps.slave[0][size], 0.0f);
         }
@@ -111,6 +118,10 @@ void XYGenerator::Process(
       channel_ramp[1] = ramps.master;
       channel_ramp[2] = ramps.slave[1];
       break;
+  }
+  
+  if (*reset) {
+    ramp_divider_.Reset();
   }
   
   ramp_divider_.Process(y_settings.ratio, channel_ramp[1], ramps.external, size);
@@ -158,6 +169,11 @@ void XYGenerator::Process(
     sequence->Record();
     sequence->set_length(settings.length);
     sequence->set_deja_vu(settings.deja_vu);
+    if (*reset) {
+      sequence->Reset();
+    }
+    
+    bool use_shifted_sequences = false;
     
     // When all channels follow the same clock, the deja-vu random looping will
     // follow the same pattern and the constant-mode input will be shifted!
@@ -165,6 +181,8 @@ void XYGenerator::Process(
         && i > 0 && i < kNumXChannels) {
       sequence = &random_sequence_[0];
       if (settings.register_mode) {
+        use_shifted_sequences = true;
+
         if (settings.control_mode == CONTROL_MODE_IDENTICAL) {
           sequence->ReplayShifted(i);
         } else if (settings.control_mode == CONTROL_MODE_BUMP) {
@@ -176,6 +194,11 @@ void XYGenerator::Process(
         sequence->ReplayPseudoRandom(hashes[i]);
       }
     }
+    
+    if (!use_shifted_sequences && use_shifted_sequences_[i]) {
+      sequence->Clone(random_sequence_[0]);
+    }
+    use_shifted_sequences_[i] = use_shifted_sequences;
     
     channel.Process(sequence, channel_ramp[i], &output[i], size, kNumChannels);
   }
