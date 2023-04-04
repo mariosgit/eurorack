@@ -1,0 +1,11 @@
+### Footprint positions - created on Mon Apr  3 13:14:43 2023 ###
+### Printed by KiCad version 7.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+JP1       M05X2SHD  2X5-SHROUDED       148.5011   -84.6836   90.0000  bottom
+R139      2k        RTRIM3296W         148.5011  -112.3061  -90.0000  bottom
+R195      2k        RTRIM3296W         157.2324  -101.1936    0.0000  bottom
+R196      2k        RTRIM3296W         139.7698  -101.1935    0.0000  bottom
+R198      2k        RTRIM3296W         135.3249   -74.9997  -90.0000  bottom
+## End

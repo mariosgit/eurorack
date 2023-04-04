@@ -1,0 +1,116 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c416cb39-98e5-480c-a02a-246cccb252d7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 065cf1c6-3616-44bb-ae1a-0d7aee534d4f)
+    (property "Sheetname" "blades_v40_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3b0f0d68-f254-46ad-a77f-368aadb03b7b)
+    (property "Sheetname" "blades_v40_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4972816e-bcb4-49ba-982c-337641d1c1cf)
+    (property "Sheetname" "blades_v40_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 59df4664-573d-46b0-ba40-a0409641f910)
+    (property "Sheetname" "blades_v40_5" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_5.kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be844a0a-98f4-4531-8f5c-5f3b4fbfa140)
+    (property "Sheetname" "blades_v40_6" (at 25.4 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_6.kicad_sch" (at 25.4 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c71d4765-6986-4331-841a-51ef6f499927)
+    (property "Sheetname" "blades_v40_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "blades_v40_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "blades_v40"
+        (path "/c416cb39-98e5-480c-a02a-246cccb252d7" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

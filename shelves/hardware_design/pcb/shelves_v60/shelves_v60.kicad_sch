@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 619e9244-2fc7-4e68-ac16-d81aa0b403df)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 797e8d0e-053f-4cf4-9661-c70f5450aea5)
+    (property "Sheetname" "shelves_v60_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shelves_v60_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shelves_v60"
+        (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c79c078-48c0-4657-a247-9eb2257cb485)
+    (property "Sheetname" "shelves_v60_5" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shelves_v60_5.kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shelves_v60"
+        (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ad7f3f14-76d2-4c09-a997-f9508b30f1fd)
+    (property "Sheetname" "shelves_v60_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shelves_v60_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shelves_v60"
+        (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b54ccde6-3169-4280-8b84-0321b4481db6)
+    (property "Sheetname" "shelves_v60_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shelves_v60_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shelves_v60"
+        (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ef9deb73-29eb-41ed-ad84-0df2dda15697)
+    (property "Sheetname" "shelves_v60_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shelves_v60_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "shelves_v60"
+        (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
