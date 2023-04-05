@@ -13,3 +13,6 @@
 [submodule "avr_audio_bootloader"]
 	path = avr_audio_bootloader
 	url = https://github.com/pichenettes/avr-audio-bootloader.git
+[submodule "KicadLib"]
+	path = KicadLib
+	url = git@github.com:mariosgit/KicadLib.git
