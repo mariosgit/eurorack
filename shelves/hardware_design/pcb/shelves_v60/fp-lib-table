@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "shelves_v60")(type "KiCad")(uri "$(KIPRJMOD)/shelves_v60.pretty")(options "")(descr ""))
+  (lib (name "synthlib")(type "KiCad")(uri "${KIPRJMOD}/synthlib.pretty")(options "")(descr ""))
+  (lib (name "synthlib.Library")(type "KiCad")(uri "${KIPRJMOD}/synthlib.Library.pretty")(options "")(descr ""))
 )

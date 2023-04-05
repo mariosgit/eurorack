@@ -1553,7 +1553,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VCC") (at 172.72 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28a447cc-baa7-4016-b775-53d72cd9ed5a)
-    (property "Reference" "#P+2" (at 172.72 104.14 0)
+    (property "Reference" "#P+02" (at 172.72 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 171.704 100.584 0)
@@ -1569,7 +1569,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#P+2") (unit 1)
+          (reference "#P+02") (unit 1)
         )
       )
     )
@@ -1628,7 +1628,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:GND") (at 213.36 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5767aa7f-0d57-426d-9892-a7dc395fe2c5)
-    (property "Reference" "#GND43" (at 213.36 185.42 0)
+    (property "Reference" "#GND043" (at 213.36 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 187.96 0)
@@ -1644,7 +1644,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#GND43") (unit 1)
+          (reference "#GND043") (unit 1)
         )
       )
     )
@@ -1653,7 +1653,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VEE") (at 162.56 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67dc2119-6a7d-492e-bc21-f99de33f372b)
-    (property "Reference" "#SUPPLY1" (at 162.56 149.86 0)
+    (property "Reference" "#SUPPLY01" (at 162.56 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VEE" (at 160.655 146.685 0)
@@ -1669,7 +1669,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#SUPPLY1") (unit 1)
+          (reference "#SUPPLY01") (unit 1)
         )
       )
     )
@@ -1678,7 +1678,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:GND") (at 162.56 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7407ef33-0113-4412-9069-ce014f8bf078)
-    (property "Reference" "#GND69" (at 162.56 185.42 0)
+    (property "Reference" "#GND069" (at 162.56 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 187.96 0)
@@ -1694,7 +1694,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#GND69") (unit 1)
+          (reference "#GND069") (unit 1)
         )
       )
     )
@@ -1729,7 +1729,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VCC") (at 213.36 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82aece8d-2d76-45cd-8347-2933dcc88709)
-    (property "Reference" "#P+4" (at 213.36 152.4 0)
+    (property "Reference" "#P+04" (at 213.36 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 212.344 148.844 0)
@@ -1745,7 +1745,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#P+4") (unit 1)
+          (reference "#P+04") (unit 1)
         )
       )
     )
@@ -1754,7 +1754,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:GND") (at 210.82 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8469d283-62d7-4f3b-b263-411f0ae29ce8)
-    (property "Reference" "#GND23" (at 210.82 119.38 0)
+    (property "Reference" "#GND023" (at 210.82 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 121.92 0)
@@ -1770,7 +1770,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#GND23") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -1779,7 +1779,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VEE") (at 251.46 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8723e00b-aa2d-4d64-944c-c4940c162e06)
-    (property "Reference" "#SUPPLY3" (at 251.46 132.08 0)
+    (property "Reference" "#SUPPLY03" (at 251.46 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VEE" (at 253.365 135.255 0)
@@ -1795,7 +1795,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#SUPPLY3") (unit 1)
+          (reference "#SUPPLY03") (unit 1)
         )
       )
     )
@@ -1838,7 +1838,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VEE") (at 167.64 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 883fdde8-6f48-4606-a977-ff6461647056)
-    (property "Reference" "#SUPPLY2" (at 167.64 121.92 0)
+    (property "Reference" "#SUPPLY02" (at 167.64 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VEE" (at 169.545 125.095 0)
@@ -1854,7 +1854,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#SUPPLY2") (unit 1)
+          (reference "#SUPPLY02") (unit 1)
         )
       )
     )
@@ -2015,7 +2015,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:GND") (at 243.84 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b113e30a-05a0-4676-ad47-fd50551a7e62)
-    (property "Reference" "#GND24" (at 243.84 119.38 0)
+    (property "Reference" "#GND024" (at 243.84 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 121.92 0)
@@ -2031,7 +2031,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#GND24") (unit 1)
+          (reference "#GND024") (unit 1)
         )
       )
     )
@@ -2116,7 +2116,7 @@
   (symbol (lib_id "shelves_v60-eagle-import:VCC") (at 251.46 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daded658-15e4-4c2d-8259-54a11c51653c)
-    (property "Reference" "#P+3" (at 251.46 101.6 0)
+    (property "Reference" "#P+03" (at 251.46 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 250.444 98.044 0)
@@ -2132,7 +2132,7 @@
     (instances
       (project "shelves_v60"
         (path "/619e9244-2fc7-4e68-ac16-d81aa0b403df/7c79c078-48c0-4657-a247-9eb2257cb485"
-          (reference "#P+3") (unit 1)
+          (reference "#P+03") (unit 1)
         )
       )
     )

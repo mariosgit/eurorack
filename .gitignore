@@ -25,9 +25,10 @@
 *assembly.zip
 *top.pdf
 *bottom.pdf
-*.csv
+# *.csv
 *partlist.txt
 *.zip
+/**/production_files
 
 # LaTeX compiled file
 *.pdf
