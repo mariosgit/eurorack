@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b76fcd96-6c68-4776-8b33-34a59ef656c8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 068ae743-a90c-4e4f-a4e1-781950336877)
+    (property "Sheetname" "tides2_v40_5" (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tides2_v40_5.kicad_sch" (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tides2_v40"
+        (path "/b76fcd96-6c68-4776-8b33-34a59ef656c8" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 52526430-5e92-45ce-a0ed-1702b9ada24f)
+    (property "Sheetname" "tides2_v40_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tides2_v40_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tides2_v40"
+        (path "/b76fcd96-6c68-4776-8b33-34a59ef656c8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 68948d2b-3fbe-46e6-81ec-de1ec172bb2c)
+    (property "Sheetname" "tides2_v40_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tides2_v40_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tides2_v40"
+        (path "/b76fcd96-6c68-4776-8b33-34a59ef656c8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c9ad6aa7-7037-4988-a0b9-22fa4afa3586)
+    (property "Sheetname" "tides2_v40_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tides2_v40_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tides2_v40"
+        (path "/b76fcd96-6c68-4776-8b33-34a59ef656c8" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f12732df-4281-445f-98e9-3be0ce4473f7)
+    (property "Sheetname" "tides2_v40_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tides2_v40_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tides2_v40"
+        (path "/b76fcd96-6c68-4776-8b33-34a59ef656c8" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
