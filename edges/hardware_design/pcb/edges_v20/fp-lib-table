@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "edges_v20")(type "KiCad")(uri "$(KIPRJMOD)/edges_v20.pretty")(options "")(descr ""))
+)
