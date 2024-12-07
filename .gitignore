@@ -21,6 +21,9 @@
 *.gpi
 *.pro
 
+# Exel/LibreOffice
+.~lock*
+
 # Assembly files
 *assembly.zip
 *top.pdf
@@ -31,6 +34,7 @@
 /**/production_files
 /**/jlcpcb
 /**/CAMOutputs
+/**/gerber
 
 # LaTeX compiled file
 *.pdf
