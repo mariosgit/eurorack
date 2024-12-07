@@ -1,0 +1,53 @@
+(footprint "SOT23-BEC" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "TO-236 ITT Intermetall")
+  (fp_text reference "REF**" (at -1.905 -1.905) (layer "F.SilkS")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp 8d3109bb-f23b-4527-a6ee-e8509af3a89e)
+  )
+  (fp_text value "SOT23-BEC" (at -1.905 3.175) (layer "F.Fab")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp c5fa6aa2-be34-4a64-b3c9-fc0fdbf53374)
+  )
+  (fp_line (start -1.4224 -0.6604) (end 1.4224 -0.6604)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 742c734a-a7a2-45dc-be52-c6b82f27c20d))
+  (fp_line (start -1.4224 0.6604) (end -1.4224 -0.6604)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 1b9697a5-362b-4119-b200-ca2bbf948068))
+  (fp_line (start 1.4224 -0.6604) (end 1.4224 0.6604)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 5c1cd629-75b5-40bf-a5b5-2439e7946e59))
+  (fp_line (start 1.4224 0.6604) (end -1.4224 0.6604)
+    (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp d0e30cce-23b0-4439-ab91-be1accaa6f4a))
+  (fp_poly
+    (pts
+      (xy -1.1684 1.2954)
+      (xy -0.7112 1.2954)
+      (xy -0.7112 0.7112)
+      (xy -1.1684 0.7112)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 3b3a2941-7a83-4055-875b-c97847d88d82))
+  (fp_poly
+    (pts
+      (xy -0.2286 -0.7112)
+      (xy 0.2286 -0.7112)
+      (xy 0.2286 -1.2954)
+      (xy -0.2286 -1.2954)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 0792d5f9-3e9e-4494-ae6f-f55f26fb177e))
+  (fp_poly
+    (pts
+      (xy 0.7112 1.2954)
+      (xy 1.1684 1.2954)
+      (xy 1.1684 0.7112)
+      (xy 0.7112 0.7112)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp c648a5c7-1180-4800-b56a-0bfd5b03d383))
+  (pad "B" smd rect (at -0.95 1.1) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0762) (thermal_bridge_angle 45) (tstamp b14208f3-46f1-4a77-89c6-14cb789f946d))
+  (pad "C" smd rect (at 0 -1.1) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0762) (thermal_bridge_angle 45) (tstamp 7b38b62c-7456-400a-9d35-6b257733b6e8))
+  (pad "E" smd rect (at 0.95 1.1) (size 1 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0762) (thermal_bridge_angle 45) (tstamp 64a98f19-49a1-445f-b027-2fed5e3db489))
+)

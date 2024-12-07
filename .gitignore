@@ -29,6 +29,8 @@
 *partlist.txt
 *.zip
 /**/production_files
+/**/jlcpcb
+/**/CAMOutputs
 
 # LaTeX compiled file
 *.pdf
